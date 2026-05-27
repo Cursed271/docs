@@ -100,55 +100,64 @@
             "group": "Purple Teaming Exercises",
             "pages": [
               "guides/purple-teaming/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Adversary Simulations",
             "pages": [
               "guides/adversary-simulations/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Phishing Simulations",
             "pages": [
               "guides/phishing-simulations/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Configuration Reviews",
             "pages": [
               "guides/configuration-reviews/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "ACL Reviews",
             "pages": [
               "guides/acl-reviews/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "System Hardening",
             "pages": [
               "guides/system-hardening/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "C2 Frameworks",
             "pages": [
               "guides/c2-frameworks/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Binary Exploitation",
             "pages": [
               "guides/binary-exploitation/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Reverse Engineering",
             "pages": [
               "guides/reverse-engineering/overview"
-            ]
+            ],
+            "expanded": false
           }
         ]
       },
