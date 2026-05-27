@@ -147,7 +147,10 @@
     "codeblocks": "dark"
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "color": {
+      "dark": "#262626"
+    }
   },
   "interaction": {
     "drilldown": true
