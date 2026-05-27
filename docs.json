@@ -30,7 +30,25 @@
           {
             "group": "Web Application Penetration Testing",
             "pages": [
-              "guides/web-app-pentesting/overview"
+              "guides/web-app-pentesting/overview",
+              "guides/web-app-pentesting/owasp-top-10",
+              "guides/web-app-pentesting/checklist",
+              {
+                "group": "Web Application Vulnerabilities",
+                "expanded": false,
+                "pages": [
+                  "guides/web-app-pentesting/vulnerabilities/a01-broken-access-control",
+                  "guides/web-app-pentesting/vulnerabilities/a02-security-misconfiguration",
+                  "guides/web-app-pentesting/vulnerabilities/a03-software-supply-chain-failures",
+                  "guides/web-app-pentesting/vulnerabilities/a04-cryptographic-failures",
+                  "guides/web-app-pentesting/vulnerabilities/a05-injection",
+                  "guides/web-app-pentesting/vulnerabilities/a06-insecure-design",
+                  "guides/web-app-pentesting/vulnerabilities/a07-authentication-failures",
+                  "guides/web-app-pentesting/vulnerabilities/a08-software-data-integrity-failures",
+                  "guides/web-app-pentesting/vulnerabilities/a09-security-logging-alerting-failures",
+                  "guides/web-app-pentesting/vulnerabilities/a10-mishandling-exceptional-conditions"
+                ]
+              }
             ],
             "expanded": false
           },
