@@ -29,75 +29,51 @@
         "groups": [
           {
             "group": "Web Application Penetration Testing",
-            "pages": [
-              "guides/api-security-testing/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Mobile Application Penetration Testing",
-            "pages": [
-              "guides/thick-client-security/overview"
-            ]
+            "pages": []
           },
           {
             "group": "API Security Testing",
-            "pages": [
-              "guides/network-pentesting/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Thick Client Security Testing",
-            "pages": [
-              "guides/active-directory/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Network Penetration Testing",
-            "pages": [
-              "guides/hardware-pentesting/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Active Directory Penetration Testing",
-            "pages": [
-              "guides/cloud-security/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Hardware Penetration Testing",
-            "pages": [
-              "guides/ai-security/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Cloud Security Testing",
-            "pages": [
-              "guides/red-teaming/overview"
-            ]
+            "pages": []
           },
           {
             "group": "AI Security Testing",
-            "pages": [
-              "guides/purple-teaming/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Red Teaming Exercises",
-            "pages": [
-              "guides/adversary-simulations/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Purple Teaming Exercises",
-            "pages": [
-              "guides/phishing-simulations/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Adversary Simulations",
-            "pages": [
-              "guides/configuration-reviews/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Phishing Simulations",
@@ -130,16 +106,10 @@
         ]
       },
       {
-        "tab": "Cheatsheets",
-        "pages": [
-          "cheatsheets/overview"
-        ]
+        "tab": "Cheatsheets"
       },
       {
-        "tab": "Projects",
-        "pages": [
-          "projects/overview"
-        ]
+        "tab": "Projects"
       }
     ]
   },
