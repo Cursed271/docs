@@ -61,35 +61,55 @@
             "pages": [
               "guides/mobile-app-pentesting/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "device-mobile",
+              "library": "tabler"
+            }
           },
           {
             "group": "API Security Testing",
             "pages": [
               "guides/api-security-testing/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "api",
+              "library": "tabler"
+            }
           },
           {
             "group": "Thick Client Security Testing",
             "pages": [
               "guides/thick-client-security/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "device-desktop",
+              "library": "tabler"
+            }
           },
           {
             "group": "Network Penetration Testing",
             "pages": [
               "guides/network-pentesting/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "network",
+              "library": "tabler"
+            }
           },
           {
             "group": "Active Directory Penetration Testing",
             "pages": [
               "guides/active-directory/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "users-group",
+              "library": "tabler"
+            }
           },
           {
             "group": "Hardware Penetration Testing",
