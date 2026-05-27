@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "linden",
   "name": "CursedSec Wiki",
   "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
   "colors": {
@@ -116,90 +116,142 @@
             "pages": [
               "guides/hardware-pentesting/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "cpu",
+              "library": "tabler"
+            }
           },
           {
             "group": "Cloud Security Testing",
             "pages": [
               "guides/cloud-security/overview"
-            ]
+            ],
+            "icon": {
+              "name": "cloud",
+              "library": "tabler"
+            }
           },
           {
             "group": "AI Security Testing",
             "pages": [
               "guides/ai-security/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "brain",
+              "library": "tabler"
+            }
           },
           {
             "group": "Red Teaming Exercises",
             "pages": [
               "guides/red-teaming/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "sword",
+              "library": "tabler"
+            }
           },
           {
             "group": "Purple Teaming Exercises",
             "pages": [
               "guides/purple-teaming/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "shield-half",
+              "library": "tabler"
+            }
           },
           {
             "group": "Adversary Simulations",
             "pages": [
               "guides/adversary-simulations/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "target",
+              "library": "tabler"
+            }
           },
           {
             "group": "Phishing Simulations",
             "pages": [
               "guides/phishing-simulations/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "fish-hook",
+              "library": "tabler"
+            }
           },
           {
             "group": "Configuration Reviews",
             "pages": [
               "guides/configuration-reviews/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "settings",
+              "library": "tabler"
+            }
           },
           {
             "group": "ACL Reviews",
             "pages": [
               "guides/acl-reviews/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "lock-access",
+              "library": "tabler"
+            }
           },
           {
             "group": "System Hardening",
             "pages": [
               "guides/system-hardening/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "shield-check",
+              "library": "tabler"
+            }
           },
           {
             "group": "C2 Frameworks",
             "pages": [
               "guides/c2-frameworks/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "terminal-2",
+              "library": "tabler"
+            }
           },
           {
             "group": "Binary Exploitation",
             "pages": [
               "guides/binary-exploitation/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "binary",
+              "library": "tabler"
+            }
           },
           {
             "group": "Reverse Engineering",
             "pages": [
               "guides/reverse-engineering/overview"
             ],
-            "expanded": false
+            "expanded": false,
+            "icon": {
+              "name": "arrows-left-right",
+              "library": "tabler"
+            }
           }
         ]
       },
