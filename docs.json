@@ -29,55 +29,81 @@
         "groups": [
           {
             "group": "Web Application Penetration Testing",
-            "pages": []
+            "pages": [
+              "guides/web-app-pentesting/overview"
+            ]
           },
           {
             "group": "Mobile Application Penetration Testing",
-            "pages": []
+            "pages": [
+              "guides/mobile-app-pentesting/overview"
+            ]
           },
           {
             "group": "API Security Testing",
-            "pages": []
+            "pages": [
+              "guides/api-security-testing/overview"
+            ]
           },
           {
             "group": "Thick Client Security Testing",
-            "pages": []
+            "pages": [
+              "guides/thick-client-security/overview"
+            ]
           },
           {
             "group": "Network Penetration Testing",
-            "pages": []
+            "pages": [
+              "guides/network-pentesting/overview"
+            ]
           },
           {
             "group": "Active Directory Penetration Testing",
-            "pages": []
+            "pages": [
+              "guides/active-directory/overview"
+            ]
           },
           {
             "group": "Hardware Penetration Testing",
-            "pages": []
+            "pages": [
+              "guides/hardware-pentesting/overview"
+            ]
           },
           {
             "group": "Cloud Security Testing",
-            "pages": []
+            "pages": [
+              "guides/cloud-security/overview"
+            ]
           },
           {
             "group": "AI Security Testing",
-            "pages": []
+            "pages": [
+              "guides/ai-security/overview"
+            ]
           },
           {
             "group": "Red Teaming Exercises",
-            "pages": []
+            "pages": [
+              "guides/red-teaming/overview"
+            ]
           },
           {
             "group": "Purple Teaming Exercises",
-            "pages": []
+            "pages": [
+              "guides/purple-teaming/overview"
+            ]
           },
           {
             "group": "Adversary Simulations",
-            "pages": []
+            "pages": [
+              "guides/adversary-simulations/overview"
+            ]
           },
           {
             "group": "Phishing Simulations",
-            "pages": []
+            "pages": [
+              "guides/phishing-simulations/overview"
+            ]
           },
           {
             "group": "Configuration Reviews",
