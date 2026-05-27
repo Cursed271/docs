@@ -16,7 +16,12 @@
     "timestamp": true
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": [
+      "copy",
+      "view",
+      "mcp",
+      "add-mcp"
+    ]
   },
   "navigation": {
     "tabs": [
@@ -141,5 +146,8 @@
   "styling": {},
   "background": {
     "decoration": "grid"
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
