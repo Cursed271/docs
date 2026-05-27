@@ -35,24 +35,6 @@ a[nav-tabs-item] {
   background-color: rgb(var(--foreground-light, 17 24 39));
 }
 
-/* Center the navbar logo */
-#navbar-logo,
-header a[href="/"] {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  display: flex;
-  justify-content: center;
-}
-
-/* Resize navbar logo to 30x30 */
-#navbar-logo img,
-header a[href="/"] img {
-  width: 30px !important;
-  height: 30px !important;
-  max-height: 30px !important;
-  object-fit: contain;
-}
-
 
 .kb-feature-card::before {
   content: "";
