@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "almond",
   "name": "CursedSec Wiki",
   "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
   "colors": {
@@ -50,23 +50,15 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["hr-people/index"]
+            "pages": []
           },
           {
             "group": "Benefits & time off",
-            "pages": [
-              "hr-people/benefits",
-              "hr-people/time-off"
-            ]
+            "pages": []
           },
           {
             "group": "Growth & pay",
-            "pages": [
-              "hr-people/performance-reviews",
-              "hr-people/compensation/index",
-              "hr-people/compensation/salary-bands",
-              "hr-people/compensation/equity-overview"
-            ]
+            "pages": []
           }
         ]
       },
@@ -124,30 +116,19 @@
         "groups": [
           {
             "group": "Overview",
-            "pages": ["engineering/index"]
+            "pages": []
           },
           {
             "group": "Setup & deployment",
-            "pages": [
-              "engineering/dev-setup",
-              "engineering/deployment"
-            ]
+            "pages": []
           },
           {
             "group": "Incident response",
-            "pages": [
-              "engineering/incident-response/index",
-              "engineering/incident-response/on-call",
-              "engineering/incident-response/postmortem"
-            ]
+            "pages": []
           },
           {
             "group": "Architecture",
-            "pages": [
-              "engineering/architecture/index",
-              "engineering/architecture/services-overview",
-              "engineering/architecture/data-models"
-            ]
+            "pages": []
           }
         ]
       }
@@ -155,7 +136,7 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/light.svg"
   },
   "navbar": {
     "links": [
@@ -177,6 +158,11 @@
     }
   },
   "appearance": {
-    "default": "dark"
+    "default": "dark",
+    "strict": true
+  },
+  "styling": {},
+  "background": {
+    "decoration": "grid"
   }
 }
