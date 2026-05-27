@@ -31,37 +31,43 @@
             "group": "Web Application Penetration Testing",
             "pages": [
               "guides/web-app-pentesting/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Mobile Application Penetration Testing",
             "pages": [
               "guides/mobile-app-pentesting/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "API Security Testing",
             "pages": [
               "guides/api-security-testing/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Thick Client Security Testing",
             "pages": [
               "guides/thick-client-security/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Network Penetration Testing",
             "pages": [
               "guides/network-pentesting/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Active Directory Penetration Testing",
             "pages": [
               "guides/active-directory/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Hardware Penetration Testing",
