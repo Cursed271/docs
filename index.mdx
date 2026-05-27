@@ -1,80 +1,185 @@
 ---
-title: "Home"
-description: "Onboarding guides, HR policies, IT help, and department runbooks for the whole company."
-mode: custom
+title: "Cursed Wiki"
+description: "A clean landing page for your Mintlify-powered knowledge base."
 ---
 
-<div className="mx-auto flex w-full max-w-[720px] flex-col gap-12 px-4 py-10 lg:gap-14 lg:py-16">
-  <div className="flex flex-col items-center gap-6">
-    <div className="flex max-w-[480px] flex-col gap-2 text-center">
-      <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
-        Your journey begins here
-      </h1>
-      <p className="text-balance text-base text-gray-600 dark:text-gray-400">
-        This is your go-to reference for how things work here. Use the tabs to navigate to different resources or search with <kbd>⌘</kbd> <kbd>K</kbd>.
-      </p>
-    </div>
+export const ButtonGrid = ({ children }) => (
+  <div
+    style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+      gap: '16px',
+      marginTop: '20px',
+      marginBottom: '8px'
+    }}
+  >
+    {children}
   </div>
+)
 
-  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-    <a
-      href="/onboarding/first-day"
-      className="group flex flex-col outline-none"
-    >
-      <div
-        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
-      >
-        <div className="relative flex items-center justify-center">
-          <Icon icon="calendar-1" size={36} className="!bg-white" />
-        </div>
-      </div>
-      <div className="flex flex-col gap-1 pt-4">
-        <span className="text-base font-medium text-gray-900 dark:text-gray-50">Your first day</span>
-        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
-          Your first day is all about getting oriented and connecting with key team members.
-        </span>
-      </div>
-    </a>
-
-    <a
-      href="/onboarding/tools/account-access"
-      className="group flex flex-col outline-none"
-    >
-      <div
-        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
-      >
-        <div className="relative flex items-center justify-center">
-          <Icon icon="key-round" size={36} className="!bg-white" />
-        </div>
-      </div>
-      <div className="flex flex-col gap-1 pt-4">
-        <span className="text-base font-medium text-gray-900 dark:text-gray-50">Account access</span>
-        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
-          Which accounts you&apos;ll need, how to claim them, and what to do if anything is missing.
-        </span>
-      </div>
-    </a>
+export const StatGrid = ({ children }) => (
+  <div
+    style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+      gap: '12px',
+      marginTop: '16px',
+      marginBottom: '8px'
+    }}
+  >
+    {children}
   </div>
+)
 
-  <div className="flex flex-col gap-4">
-    <h2 className="text-lg font-medium tracking-tight text-gray-900 dark:text-gray-50">Resources</h2>
+# Build. Break. Document.
 
-    <Columns cols={2}>
-      <Card title="HR & People" icon="users" iconType="light" href="/hr-people">
-        Benefits, time off, performance reviews, and compensation.
-      </Card>
-      <Card title="IT & Security" icon="shield-check" iconType="light" href="/it-security">
-        Access requests, device policy, and security training.
-      </Card>
-    </Columns>
+Your **Wiki** is the operating manual for projects, experiments, writeups, architecture notes, and all the weird little lessons that should not die in chat history or terminal scrollback.
 
-    <Columns cols={2}>
-      <Card title="Policies" icon="scroll" iconType="light" href="/policies">
-        Code of conduct, expense reimbursement, travel, and remote work.
-      </Card>
-      <Card title="Engineering" icon="code-xml" iconType="light" href="/engineering">
-        Dev setup, deployment, incident response, and architecture.
-      </Card>
-    </Columns>
-  </div>
-</div>
+<CardGroup cols={2}>
+  <Card title="Start here" icon="rocket" href="/getting-started/overview">
+    Set up your workspace, learn the structure, and publish your first useful page.
+  </Card>
+
+  <Card title="Project index" icon="folder-tree" href="/projects/overview">
+    Browse active builds, archived work, and technical notes by project.
+  </Card>
+</CardGroup>
+
+<ButtonGrid>
+  <a href="/getting-started/overview" style={{ textDecoration: 'none' }}>
+    <Card title="Quickstart" icon="bolt">
+      Get from zero to a live wiki fast.
+    </Card>
+  </a>
+
+  <a href="/projects/overview" style={{ textDecoration: 'none' }}>
+    <Card title="Projects" icon="blocks">
+      Jump into build logs, specs, and decision records.
+    </Card>
+  </a>
+
+  <a href="/playbooks/overview" style={{ textDecoration: 'none' }}>
+    <Card title="Playbooks" icon="book-open">
+      Store repeatable workflows, SOPs, and checklists.
+    </Card>
+  </a>
+
+  <a href="/research/overview" style={{ textDecoration: 'none' }}>
+    <Card title="Research" icon="search">
+      Keep notes, references, and findings in one place.
+    </Card>
+  </a>
+</ButtonGrid>
+
+## What lives here
+
+This homepage is built around Mintlify’s MDX-based docs flow, where each page is stored in your repository and the site navigation is configured through `docs.json`. Mintlify’s docs also show landing pages commonly using hero content plus navigation cards, which makes this layout a natural front door for a wiki. \[web:73\]\[web:66\]\[web:63\]
+
+<StatGrid>
+  <Card title="Projects" icon="folder-kanban">
+    Specs, roadmaps, changelogs, and postmortems.
+  </Card>
+
+  <Card title="Knowledge" icon="brain">
+    Notes that save you from solving the same problem twice.
+  </Card>
+
+  <Card title="Systems" icon="cpu">
+    Architecture, infrastructure, and internal conventions.
+  </Card>
+
+  <Card title="Ops" icon="shield-check">
+    Runbooks, deployment steps, and incident handling.
+  </Card>
+</StatGrid>
+
+## Suggested structure
+
+<Steps>
+  <Step title="Getting started">
+    Add onboarding, environment setup, and contribution rules.
+  </Step>
+  <Step title="Projects">
+    Create one section per project with overview, setup, architecture, and changelog pages.
+  </Step>
+  <Step title="Playbooks">
+    Keep reusable procedures like deployment, debugging, release, and maintenance guides.
+  </Step>
+  <Step title="Research">
+    Store experiments, references, comparisons, and links worth preserving.
+  </Step>
+</Steps>
+
+## Core paths
+
+<CardGroup cols={3}>
+  <Card title="Architecture" icon="waypoints" href="/architecture/overview">
+    System design, diagrams, integrations, and trust boundaries.
+  </Card>
+
+  <Card title="Runbooks" icon="terminal" href="/runbooks/overview">
+    Actionable procedures for deploys, fixes, and recovery.
+  </Card>
+
+  <Card title="Writeups" icon="file-text" href="/writeups/overview">
+    Deep dives, retrospectives, and lessons learned.
+  </Card>
+
+  <Card title="Snippets" icon="square-code" href="/snippets/overview">
+    Commands, scripts, templates, and reusable fragments.
+  </Card>
+
+  <Card title="Glossary" icon="library" href="/glossary/overview">
+    Shared terms, acronyms, and definitions.
+  </Card>
+
+  <Card title="Reference" icon="book-copy" href="/reference/overview">
+    Stable facts, configs, ports, schemas, and links.
+  </Card>
+</CardGroup>
+
+## Writing rules
+
+<Check>
+  One page should answer one clear question.
+</Check>
+
+<Check>
+  Every project should have an overview, setup guide, architecture note, and changelog.
+</Check>
+
+<Check>
+  Prefer short pages with strong internal links over giant walls of text.
+</Check>
+
+<Check>
+  Put commands, assumptions, and prerequisites near the top.
+</Check>
+
+<Check>
+  End important pages with related links so readers keep moving.
+</Check>
+
+## First pages to create
+
+<CardGroup cols={2}>
+  <Card title="New project template" icon="file-plus" href="/templates/project-template">
+    A reusable page template for every new build.
+  </Card>
+
+  <Card title="Environment setup" icon="wrench" href="/getting-started/environment-setup">
+    Install steps, dependencies, secrets handling, and local workflow.
+  </Card>
+
+  <Card title="Deployment guide" icon="cloud-upload" href="/playbooks/deployment">
+    The exact path from commit to production.
+  </Card>
+
+  <Card title="Troubleshooting" icon="bug" href="/runbooks/troubleshooting">
+    Common breakages, fixes, and known failure patterns.
+  </Card>
+</CardGroup>
+
+<Info>
+  Replace the placeholder links with your real routes. If a page does not exist yet, keep the card and create the file later so your homepage becomes a roadmap too.
+</Info>

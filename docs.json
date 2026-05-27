@@ -123,8 +123,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Submit IT ticket",
-        "href": "/it-security/access-requests"
+        "href": "/web",
+        "label": ""
       }
     ],
     "primary": {
