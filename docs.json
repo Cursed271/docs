@@ -73,7 +73,8 @@
             "group": "Hardware Penetration Testing",
             "pages": [
               "guides/hardware-pentesting/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Cloud Security Testing",
@@ -85,13 +86,15 @@
             "group": "AI Security Testing",
             "pages": [
               "guides/ai-security/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Red Teaming Exercises",
             "pages": [
               "guides/red-teaming/overview"
-            ]
+            ],
+            "expanded": false
           },
           {
             "group": "Purple Teaming Exercises",
@@ -197,5 +200,6 @@
   },
   "interaction": {
     "drilldown": true
-  }
+  },
+  "favicon": "images/Logo.svg"
 }
