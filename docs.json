@@ -23,7 +23,125 @@
     ]
   },
   "navigation": {
-    "groups": []
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Web Application Penetration Testing",
+            "pages": [
+              "guides/api-security-testing/overview"
+            ]
+          },
+          {
+            "group": "Mobile Application Penetration Testing",
+            "pages": [
+              "guides/thick-client-security/overview"
+            ]
+          },
+          {
+            "group": "API Security Testing",
+            "pages": [
+              "guides/network-pentesting/overview"
+            ]
+          },
+          {
+            "group": "Thick Client Security Testing",
+            "pages": [
+              "guides/active-directory/overview"
+            ]
+          },
+          {
+            "group": "Network Penetration Testing",
+            "pages": [
+              "guides/hardware-pentesting/overview"
+            ]
+          },
+          {
+            "group": "Active Directory Penetration Testing",
+            "pages": [
+              "guides/cloud-security/overview"
+            ]
+          },
+          {
+            "group": "Hardware Penetration Testing",
+            "pages": [
+              "guides/ai-security/overview"
+            ]
+          },
+          {
+            "group": "Cloud Security Testing",
+            "pages": [
+              "guides/red-teaming/overview"
+            ]
+          },
+          {
+            "group": "AI Security Testing",
+            "pages": [
+              "guides/purple-teaming/overview"
+            ]
+          },
+          {
+            "group": "Red Teaming Exercises",
+            "pages": [
+              "guides/adversary-simulations/overview"
+            ]
+          },
+          {
+            "group": "Purple Teaming Exercises",
+            "pages": [
+              "guides/phishing-simulations/overview"
+            ]
+          },
+          {
+            "group": "Adversary Simulations",
+            "pages": [
+              "guides/configuration-reviews/overview"
+            ]
+          },
+          {
+            "group": "Phishing Simulations",
+            "pages": []
+          },
+          {
+            "group": "Configuration Reviews",
+            "pages": []
+          },
+          {
+            "group": "ACL Reviews",
+            "pages": []
+          },
+          {
+            "group": "System Hardening",
+            "pages": []
+          },
+          {
+            "group": "C2 Frameworks",
+            "pages": []
+          },
+          {
+            "group": "Binary Exploitation",
+            "pages": []
+          },
+          {
+            "group": "Reverse Engineering",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "tab": "Cheatsheets",
+        "pages": [
+          "cheatsheets/overview"
+        ]
+      },
+      {
+        "tab": "Projects",
+        "pages": [
+          "projects/overview"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
