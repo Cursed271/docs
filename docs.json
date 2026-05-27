@@ -120,12 +120,7 @@
     "dark": "/logo/light.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "href": "/web",
-        "label": ""
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Employee portal",
