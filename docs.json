@@ -29,9 +29,7 @@
         "groups": [
           {
             "group": "Web Application Penetration Testing",
-            "pages": [
-              "guides/web-app-pentesting/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Mobile Application Penetration Testing",
@@ -51,101 +49,67 @@
           },
           {
             "group": "Active Directory Penetration Testing",
-            "pages": [
-              "guides/active-directory/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Hardware Penetration Testing",
-            "pages": [
-              "guides/hardware-pentesting/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Cloud Security Testing",
-            "pages": [
-              "guides/cloud-security/overview"
-            ]
+            "pages": []
           },
           {
             "group": "AI Security Testing",
-            "pages": [
-              "guides/ai-security/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Red Teaming Exercises",
-            "pages": [
-              "guides/red-teaming/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Purple Teaming Exercises",
-            "pages": [
-              "guides/purple-teaming/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Adversary Simulations",
-            "pages": [
-              "guides/adversary-simulations/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Phishing Simulations",
-            "pages": [
-              "guides/phishing-simulations/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Configuration Reviews",
-            "pages": [
-              "guides/configuration-reviews/overview"
-            ]
+            "pages": []
           },
           {
             "group": "ACL Reviews",
-            "pages": [
-              "guides/acl-reviews/overview"
-            ]
+            "pages": []
           },
           {
             "group": "System Hardening",
-            "pages": [
-              "guides/system-hardening/overview"
-            ]
+            "pages": []
           },
           {
             "group": "C2 Frameworks",
-            "pages": [
-              "guides/c2-frameworks/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Binary Exploitation",
-            "pages": [
-              "guides/binary-exploitation/overview"
-            ]
+            "pages": []
           },
           {
             "group": "Reverse Engineering",
-            "pages": [
-              "guides/reverse-engineering/overview"
-            ]
+            "pages": []
           }
         ]
       },
       {
-        "tab": "Cheatsheets",
-        "pages": [
-          "cheatsheets/overview"
-        ]
+        "tab": "Cheatsheets"
       },
       {
-        "tab": "Projects",
-        "pages": [
-          "projects/overview"
-        ]
+        "tab": "Projects"
       }
     ]
   },
