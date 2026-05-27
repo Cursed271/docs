@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "willow",
   "name": "CursedSec Wiki",
   "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
   "colors": {
